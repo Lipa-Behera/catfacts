@@ -1,0 +1,10 @@
+TC01:
+Test Case: Verify Successful Response Status Code
+Send a GET request to the Catfact API https://cat-fact.herokuapp.com/facts/random).
+Ensure that the response code is 200 (success).
+
+TC02:Verify Catfact API Returns a Valid Fact
+Send a GET request to the Catfact API (https://cat-fact.herokuapp.com/facts/random.
+Ensure that the response code is 200 (success).
+Validate that the returned JSON contains a "fact" key and that the fact is a non-empty string.
+
